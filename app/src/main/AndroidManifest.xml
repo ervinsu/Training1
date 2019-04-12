@@ -3,6 +3,7 @@
     package="com.example.training1">
 
     <application
+        android:name=".Application"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +14,7 @@
         <activity android:name=".di.MainActivity">
 
         </activity>
-        <activity android:name=".HomeActivity">
+        <activity android:name=".activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
